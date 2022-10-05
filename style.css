@@ -6,21 +6,24 @@
 
 body{
     margin-bottom: 0px;
-    background-color: #2663DA;
+    background-color: rgb(227, 230, 233);
 }
 
 nav ul {
-    padding:0px;
+    height: 120px;
     display: flex;
-    justify-content:space-around;
+    align-items: center;
+    justify-content:space-between;
+
     list-style-type: none;
 }
     nav li a {
         font-family: math;
-        color: #fff;
+        color: rgb(16, 16, 16);
         font-size: 20px;
         text-decoration: none;
         spacing: 15px;
+    
         
         
     }   
@@ -28,13 +31,14 @@ nav ul {
 nav li a:hover {
     color: #dd5771;
    
+   
 }
 
 h1 {
     font-size: 30px;
     font-family: math;
     padding: 10%;
-    color: #ffff
+    color: rgb(16, 16, 16)
 }
 
 img{
@@ -81,7 +85,7 @@ img{
   }
   .fa-email {
     background: #0895e7;
-    color: white;
+    color: #9797a3;
   }
 
   .fa-github {
