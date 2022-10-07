@@ -13,20 +13,24 @@ nav ul {
     height: 120px;
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    padding: 0;
 
     list-style-type: none;
 }
     nav li a {
         font-family: math;
-        color: rgb(16, 16, 16);
+        color: rgb(36, 9, 241);
         font-size: 20px;
         text-decoration: none;
-        spacing: 15px;
-    
-        
         
     }   
+
+    nav li {
+
+      padding: 15px;
+      
+     
+    }
 
 nav li a:hover {
     color: #dd5771;
@@ -37,21 +41,25 @@ nav li a:hover {
 h1 {
     font-size: 30px;
     font-family: math;
-    padding: 10%;
-    color: rgb(16, 16, 16)
+    padding: 30px;
+    left: 40px;
+    color: rgb(14, 14, 14)
 }
 
+
 img{
-    position: relative;
-    left: 60%;  
-    margin-bottom: 1000px;
+  position: relative;
+    left: 854px;
     border-radius: 50%;
+    bottom: 387px;
+    width: 154px;
+    height: 180px;
 }
 
 .fa {
-    padding: 15px;
-    font-size: 10px;
-    width: 15px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
   }
@@ -66,8 +74,8 @@ img{
   }
   
   .fa-facebook {
-    background: #1505f6;
-    color: white;
+    background: #3B5998;
+  color: white;
   }
   
   .fa-twitter {
@@ -89,8 +97,18 @@ img{
   }
 
   .fa-github {
-    background: #9797a3;
+    background: #d11e0b;
     color: rgb(48, 15, 237);
+ 
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
   }
 
 
