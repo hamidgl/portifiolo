@@ -2,11 +2,12 @@
   width: 100%;
   max-width: 1476px;
   margin: 0 auto;
-  background-color:rgb(206, 195, 195)
+  background-color:#eee
 }
 
-
-
+#page_wrapper {
+  height:100vh;
+}
 nav ul {
   height: 120px;
   display: flex;
@@ -32,11 +33,11 @@ nav li a:hover {
 
 img {
   position: relative;
-  left: 1082px;
-  border-radius: 50%;
-  bottom: 387px;
-  width: 154px;
-  height: 180px;
+    left: 1108px;
+    border-radius: 50%;
+    bottom: 387px;
+    width: 180px;
+    height: 180px;
 }
 
 .fa {
@@ -108,15 +109,18 @@ footer {
 
 button.about.me {
   position: relative;
-  left: 458px;
-  bottom: 412px;
+  left: 574px;
+  bottom: 240px;
   border: solid;
   background: #eee;
 }
+button.about.me h2 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: bisque;
+}
 
 .title h1 {
-
-
   font-size: 30px;
     font-family: math;
     padding: 30px;
