@@ -1,122 +1,127 @@
 #page_wrapper {
-    width: 100%;
-    max-width: 1024px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1476px;
+  margin: 0 auto;
+  background-color:rgb(206, 195, 195)
 }
 
-body{
-    margin-bottom: 0px;
-    background-color: rgb(227, 230, 233);
-}
+
 
 nav ul {
-    height: 120px;
-    display: flex;
-    align-items: center;
-    padding: 0;
-
-    list-style-type: none;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  list-style-type: none;
 }
-    nav li a {
-        font-family: math;
-        color: rgb(36, 9, 241);
-        font-size: 20px;
-        text-decoration: none;
-        
-    }   
 
-    nav li {
+nav li a {
+  font-family: math;
+  color: rgb(36, 9, 241);
+  font-size: 20px;
+  text-decoration: none;
+}
 
-      padding: 15px;
-      
-     
-    }
+nav li {
+  padding: 15px;
+}
 
 nav li a:hover {
-    color: #dd5771;
-   
-   
+  color: #dd5771;
 }
 
-h1 {
-    font-size: 30px;
-    font-family: math;
-    padding: 30px;
-    left: 40px;
-    color: rgb(14, 14, 14)
-}
-
-
-img{
+img {
   position: relative;
-    left: 854px;
-    border-radius: 50%;
-    bottom: 387px;
-    width: 154px;
-    height: 180px;
+  left: 1082px;
+  border-radius: 50%;
+  bottom: 387px;
+  width: 154px;
+  height: 180px;
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-  .fa{
-    position: relative;
-    margin-right: 1000px;
-    
-  }
-  
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa {
+  position: relative;
+  margin-right: 1000px;
+
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
   color: white;
-  }
-  
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  .fa-whatsapp {
-    background: #0ad318;
-    color: white;
-  }
+}
 
-  .fa-linkedin {
-    background: #1505f6;
-    color: white;
-  }
-  .fa-email {
-    background: #0895e7;
-    color: #9797a3;
-  }
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
 
-  .fa-github {
-    background: #d11e0b;
-    color: rgb(48, 15, 237);
- 
-  }
+.fa-whatsapp {
+  background: #0ad318;
+  color: white;
+}
 
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-  }
+.fa-linkedin {
+  background: #1505f6;
+  color: white;
+}
+
+.fa-email {
+  background: #0895e7;
+  color: #9797a3;
+}
+
+.fa-github {
+  background: #d11e0b;
+  color: rgb(48, 15, 237);
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(15, 14, 14);
+  color: white;
+  text-align: center;
+}
+
+button.about.me {
+  position: relative;
+  left: 458px;
+  bottom: 412px;
+  border: solid;
+  background: #eee;
+}
+
+.title h1 {
 
 
-
-
-
-
-
-
-
-
+  font-size: 30px;
+    font-family: math;
+    padding: 30px;
+    color: black;
+    margin: o;
+    margin-left: 466px;
+    margin-bottom: -103px;
+}
