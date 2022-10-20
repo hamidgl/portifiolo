@@ -1,13 +1,14 @@
 #page_wrapper {
   width: 100%;
-  max-width: 1476px;
-  margin: 0 auto;
-  background-color:#eee
+  max-width: 1700px;
+  margin: 0;
 }
 
-#page_wrapper {
-  height:100vh;
+body {
+  margin-bottom: 0px;
+  background-color: rgb(227, 230, 233);
 }
+
 nav ul {
   height: 120px;
   display: flex;
@@ -18,9 +19,16 @@ nav ul {
 
 nav li a {
   font-family: math;
-  color: rgb(36, 9, 241);
+  color: rgb(248, 247, 250);
   font-size: 20px;
   text-decoration: none;
+  left: 780px;
+  position: relative;
+}
+
+ nav {
+  background-color: rgb(56, 55, 55);;
+  width: 1920px;
 }
 
 nav li {
@@ -33,99 +41,49 @@ nav li a:hover {
 
 img {
   position: relative;
-    left: 1108px;
-    border-radius: 50%;
-    bottom: 387px;
-    width: 180px;
-    height: 180px;
-}
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.fa {
-  position: relative;
-  margin-right: 1000px;
-
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-whatsapp {
-  background: #0ad318;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #1505f6;
-  color: white;
-}
-
-.fa-email {
-  background: #0895e7;
-  color: #9797a3;
-}
-
-.fa-github {
-  background: #d11e0b;
-  color: rgb(48, 15, 237);
-}
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
+  left: 870px;
   border-radius: 50%;
+  bottom: 0px;
+  top: 100px;
+  width: 160px;
+  height: 160px;
 }
+
 
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(15, 14, 14);
+  background-color: rgb(56, 55, 55);
   color: white;
   text-align: center;
 }
 
-button.about.me {
-  position: relative;
-  left: 574px;
-  bottom: 240px;
-  border: solid;
-  background: #eee;
-}
-button.about.me h2 {
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: bisque;
+button {
+  background-color: rgb(56, 55, 55);
+  color: rgb(243, 238, 238);
+  border: 3px solid;
+  text-decoration: 0;
 }
 
-.title h1 {
-  font-size: 30px;
-    font-family: math;
-    padding: 30px;
-    color: black;
-    margin: o;
-    margin-left: 466px;
-    margin-bottom: -103px;
+button {
+  left: 895px;
+  position: absolute;
+  bottom: 266px;
 }
+
+.title h3 {
+  left: 860px;
+  position: absolute;
+  bottom: 425px;
+}
+
+.title p {
+  left: 896px;
+  position: absolute;
+  bottom: 400px;
+}
+
+
+
