@@ -1,7 +1,7 @@
 #page_wrapper {
-  width: 100%;
-  max-width: 1700px;
-  margin: 0;
+  width: 80%;
+  /* max-width: 1280px; */
+  margin: 0 auto;
 }
 
 body {
@@ -9,12 +9,27 @@ body {
   background-color: rgb(227, 230, 233);
 }
 
+nav {
+  padding: 10px 0;
+  text-align: center;
+  background: rgb(56, 55, 55);
+  color: white;
+  width: 100%;
+  
+}
+
 nav ul {
+
   height: 120px;
-  display: flex;
-  align-items: center;
-  padding: 0;
-  list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+    justify-content: center;
+}
+
+nav ul li {
+  padding: 15px;
 }
 
 nav li a {
@@ -22,29 +37,26 @@ nav li a {
   color: rgb(248, 247, 250);
   font-size: 20px;
   text-decoration: none;
-  left: 780px;
-  position: relative;
 }
 
- nav {
-  background-color: rgb(56, 55, 55);;
-  width: 1920px;
-}
-
-nav li {
-  padding: 15px;
-}
 
 nav li a:hover {
   color: #dd5771;
 }
 
+.contents {
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 511px;
+    padding-bottom: 296px;
+    background-color: gainsboro;
+}
+
 img {
-  position: relative;
-  left: 870px;
   border-radius: 50%;
-  bottom: 0px;
-  top: 100px;
   width: 160px;
   height: 160px;
 }
@@ -67,23 +79,19 @@ button {
   text-decoration: 0;
 }
 
-button {
-  left: 895px;
-  position: absolute;
-  bottom: 266px;
-}
-
-.title h3 {
-  left: 860px;
-  position: absolute;
-  bottom: 425px;
-}
+.title h3 {}
 
 .title p {
-  left: 896px;
-  position: absolute;
-  bottom: 400px;
+  margin: 50px;
 }
 
+.about {
+  margin: 15px;
 
+}
 
+.about p {
+  text-align: center;
+  font-size: 50px;
+
+}
