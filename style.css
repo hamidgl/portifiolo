@@ -33,6 +33,7 @@ nav ul li {
 }
 
 nav li a {
+ 
   font-family: math;
   color: rgb(248, 247, 250);
   font-size: 20px;
@@ -51,8 +52,10 @@ nav li a:hover {
     justify-content: center;
     align-items: center;
     height: 511px;
-    padding-bottom: 296px;
+    padding-bottom: 100%;
     background-color: gainsboro;
+    left: 100px;
+   
 }
 
 img {
@@ -73,25 +76,136 @@ footer {
 }
 
 button {
-  background-color: rgb(56, 55, 55);
-  color: rgb(243, 238, 238);
-  border: 3px solid;
-  text-decoration: 0;
+  background-color: rgb(56, 55, 55); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 50%;
 }
 
-.title h3 {}
+button:hover {
+  background-color: #58b461;
+  color: white;
+ 
+}
+
+
+
+
+.title h2 h1 {
+  padding: 0px;
+}
 
 .title p {
   margin: 50px;
 }
 
-.about {
-  margin: 15px;
 
-}
 
-.about p {
+.fa {
+  padding: 10px;
+  font-size: 30px;
   text-align: center;
-  font-size: 50px;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 15%;
 
 }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+#about {
+  display: flex;
+  padding: 20px 0;
+  min-height: 50vh;
+  align-items: center;
+}
+
+#about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#about .contents {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: 1fr;
+}
+
+img {
+  width: 300px;
+  height: 500px;
+  padding: 2px;
+  margin: 0 auto;
+  border-radius: 2%;
+  background-color: #0aaedf;
+  right: 10px;
+}
+img {
+  position: relative;
+  right: 500px;
+  margin-top: -259px;
+}
+
+.Iam {
+  font-size: 15px;
+  background-color: floralwhite;
+  border-radius: 10%;
+  width: 1000px;
+  padding: 5px;
+}
+
+
+ 
+
+
+
+
+
+
+  
+
+
+
+
+
+
